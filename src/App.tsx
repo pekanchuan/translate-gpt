@@ -1,3 +1,9 @@
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="flex h-screen items-center justify-center">
+      <div className="w-1/2 bg-blue-100 h-full">
+        <p>what's this one</p>
+      </div>
+    </div>
+  );
 }
